@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  kafka:
+    producer:
+      bootstrap-servers: 172.19.205.32:9092
+      key-serializer: org.apache.kafka.common.serialization.IntegerSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
