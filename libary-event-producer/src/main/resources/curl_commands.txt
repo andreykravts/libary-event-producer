@@ -3,6 +3,7 @@
 curl -i -d ' { "libraryEventId": null,"libraryEventType": "NEW", "book": { "bookId":456, "bookName": "Kafka Using Spring Boot", "bookAuthor": "Dilip" } } ' -H "Content-Type: application/json" -X POST http://localhost:8080/v1/libraryevent
 
 curl -i -d ' { "libraryEventId": 1,"libraryEventType": "NEW", "book": { "bookId":456, "bookName": "Kafka Using Spring Boot", "bookAuthor": "Dilip" } } ' -H "Content-Type: application/json" -X POST http://localhost:8080/v1/libraryevent
+curl -i -d ' { "libraryEventId": 1,"libraryEventType": "UPDATE", "book": { "bookId":456, "bookName": "Kafka Using Spring Boot2.X", "bookAuthor": "Andrey" } } ' -H "Content-Type: application/json" -X POST http://localhost:8080/v1/libraryevent
 
 curl -i -d ' { "libraryEventId": 1,"libraryEventType": "NEW", "book": { "bookId":456, "bookName": "Kafka Using Spring Boot", "bookAuthor": "Dilip" } } ' -H "Content-Type: application/json" -X PUT http://localhost:8080/v1/libraryevent
 

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
   <component name="AdditionalModuleElements">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/libary-event-producer" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/libary-event-producer/src/test/java/integration" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/libary-event-producer/src/test/java/unit" isTestSource="true" />
+    </content>
   </component>
 </module>
